@@ -1,7 +1,13 @@
+#pragma once
+
+#ifndef GAMEPAD_INPUT_STATE_H
+#define GAMEPAD_INPUT_STATE_H
+
 #include <stddef.h>
 #include <stdint.h>
+#include <string.h>
 
-namespace gamepad_input {
+namespace gamepad::input {
 #if __cplusplus >= 201703L
 inline constexpr size_t kVersionMajor = 1;
 inline constexpr size_t kVersionMinor = 0;
@@ -260,6 +266,12 @@ struct State {
   uint32_t buttons{0};
   uint8_t axes[kAxisCount]{kAxisCenter, kAxisCenter, kAxisCenter, kAxisCenter};
 
+  static State FromBytes(const void* data) noexcept {
+    State state;
+    memcpy(&state, data, sizeof(state));
+    return state;
+  }
+
   void Reset() noexcept {
     buttons = 0;
     for (size_t i = 0; i < kAxisCount; ++i) {
@@ -320,3 +332,4 @@ struct State {
 
 static_assert(sizeof(State) == 8, "State layout must be stable");
 }  // namespace gamepad_input
+#endif

@@ -203,10 +203,12 @@ enum class Button : uint32_t {
   kHome = uint32_t{1} << 16,
 };
 
-inline constexpr Button operator|(Button a, Button b) noexcept {
+constexpr inline Button operator|(Button a, Button b) noexcept {
   return static_cast<Button>(static_cast<uint32_t>(a) | static_cast<uint32_t>(b));
 }
 
-inline constexpr bool operator&(uint32_t bits, Button b) noexcept { return (bits & static_cast<uint32_t>(b)) != 0; }
+constexpr inline bool operator&(uint32_t bits, Button b) noexcept {
+  return (bits & static_cast<uint32_t>(b)) == static_cast<uint32_t>(b);
+}
 }  // namespace gamepad::input
 #endif

@@ -39,7 +39,7 @@ var NAVTREE =
     ] ],
     [ "Examples", "examples.html", "examples" ],
     [ "Downloads", "usergroup0.html", [
-      [ "GamepadInput_v1.2.0.zip: https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip", "^https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip", null ]
+      [ "GamepadInput_v1.2.1.zip: https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip", "^https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip", null ]
     ] ]
   ] ]
 ];

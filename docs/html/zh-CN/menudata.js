@@ -35,4 +35,4 @@ var menudata={children:[
 {text:"文件列表",url:"files.html"}]},
 {text:"示例",url:"examples.html"},
 {text:"下载",url:"usergroup0.html",children:[
-{text:"GamepadInput_v1.2.0.zip: https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip",url:"^https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip"}]}]}
+{text:"GamepadInput_v1.2.1.zip: https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip",url:"^https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip"}]}]}

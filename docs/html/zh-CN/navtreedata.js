@@ -39,7 +39,7 @@ var NAVTREE =
     ] ],
     [ "示例", "examples.html", "examples" ],
     [ "下载", "usergroup0.html", [
-      [ "GamepadInput_v1.2.0.zip: https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip", "^https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip", null ]
+      [ "GamepadInput_v1.2.1.zip: https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip", "^https://gh-proxy.com/https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip", null ]
     ] ]
   ] ]
 ];

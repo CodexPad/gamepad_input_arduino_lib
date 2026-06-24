@@ -35,4 +35,4 @@ var menudata={children:[
 {text:"File List",url:"files.html"}]},
 {text:"Examples",url:"examples.html"},
 {text:"Downloads",url:"usergroup0.html",children:[
-{text:"GamepadInput_v1.2.0.zip: https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip",url:"^https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.0.zip"}]}]}
+{text:"GamepadInput_v1.2.1.zip: https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip",url:"^https://github.com/CodexPad/gamepad_input_arduino_lib/archive/refs/tags/v1.2.1.zip"}]}]}

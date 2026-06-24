@@ -12,15 +12,9 @@
 
 namespace gamepad::input {
 #if __cplusplus >= 201703L
-constexpr inline size_t kVersionMajor = 1;
-constexpr inline size_t kVersionMinor = 0;
-constexpr inline size_t kVersionPatch = 0;
 constexpr inline size_t kAxisCount = 4;
 constexpr inline uint8_t kAxisCenter = 0x80;
 #else
-static constexpr size_t kVersionMajor = 1;
-static constexpr size_t kVersionMinor = 0;
-static constexpr size_t kVersionPatch = 0;
 static constexpr size_t kAxisCount = 4;
 static constexpr uint8_t kAxisCenter = 0x80;
 #endif
